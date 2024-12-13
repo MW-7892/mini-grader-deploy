@@ -1,0 +1,6 @@
+[submodule "mini-grader-fe"]
+	path = mini-grader-fe
+	url = git@github.com:MW-7892/mini-grader-fe.git
+[submodule "mini-grader-be"]
+	path = mini-grader-be
+	url = git@github.com:MW-7892/mini-grader-be.git

@@ -1,2 +1,17 @@
-# mini-grader-deploy
-Repository to connect both frontend and backend for mini-grader deployment
+# Mini-grader Deploy
+Use this one to deploy the system
+
+## Updating Repo
+```
+git submodule update --remote --merge
+```
+
+## How to Deploy
+* Create a docker network, so the backend and the database can connect with each other
+```
+docker network create mini-grader-network
+```
+* Start the container
+```
+docker compose up -d
+```
